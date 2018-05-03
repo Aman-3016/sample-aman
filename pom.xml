@@ -55,5 +55,12 @@
 		</plugins>
 	</build>
 
-
+<distributionManagement>
+    <repository>
+        <id>waviz.ops</id>
+      <name>project</name>
+      <url>file:///home/aman/aman/tool/source/deploy</url>
+      
+    </repository>
+ </distributionManagement>
 </project>
