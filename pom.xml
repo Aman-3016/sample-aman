@@ -45,15 +45,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 	
 
-<distributionManagement>
-    <repository>
-        <id>waviz.ops</id>
-      <name>project</name>
-      <url>file:///home/aman/aman/tool/source/deploy</url>
-      
-    </repository>
- </distributionManagement>
 </project>
