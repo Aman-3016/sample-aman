@@ -7,7 +7,8 @@
 	<artifactId>sample-aman</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
+ 
+	
 	<name>sample-aman</name>
 	<description>Demo project for Spring Boot</description>
   
