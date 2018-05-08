@@ -10,7 +10,7 @@
 
 	<name>sample-aman</name>
 	<description>Demo project for Spring Boot</description>
-
+  	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -39,7 +39,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
-
                 </dependency>
 
 		<dependency>
@@ -57,10 +56,9 @@
 	<build>
 		<plugins>
 			<plugin>
-                              
-                                <groupId>org.springframework.boot</groupId>
-                                <artifactId>spring-boot-maven-plugin</artifactId>
-                        </plugin>>
+                               <groupId>org.springframework.boot</groupId>
+                               <artifactId>spring-boot-maven-plugin</artifactId>
+                        </plugin>
                 </plugins>
 	</build>
 
