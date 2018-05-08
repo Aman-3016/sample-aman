@@ -6,7 +6,7 @@
 	<groupId>com.waviz.oops</groupId>
 	<artifactId>sample-aman</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>sample-aman</name>
 	<description>Demo project for Spring Boot</description>
@@ -34,6 +34,14 @@
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 
+	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+
+                </dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -49,10 +57,11 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
+                              
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-maven-plugin</artifactId>
+                        </plugin>>
+                </plugins>
 	</build>
 
 <distributionManagement>
